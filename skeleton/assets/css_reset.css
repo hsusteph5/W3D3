@@ -1,0 +1,17 @@
+h1, h2, ul li, section, body, header, ol li, ol, ul, p, img, figure,  footer {
+  
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-style: inherit;
+  list-style-type: none;
+
+}
+
+body{
+  line-height: 1.5
+}
+
+img{
+  width: inherit;
+}
