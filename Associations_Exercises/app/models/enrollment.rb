@@ -13,6 +13,7 @@ class Enrollment < ApplicationRecord
   #belongs_to User
   #belongs_to Course
   
+  #enrollment.student_id = User.id
   belongs_to :student,
     primary_key: :id,
     foreign_key: :student_id,
